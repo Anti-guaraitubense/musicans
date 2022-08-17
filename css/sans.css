@@ -7,10 +7,11 @@
 .logo{
     color: royalblue;
     font-size: 250%;
+    font-weight: 800;
 }
 
 .logo:hover{
-    color: green;
+    color: rgb(150, 228, 241);
 }
 
 .top-hud{
@@ -28,4 +29,19 @@
 
 .links:hover{
     color: yellow;
+}
+
+.search-bar{
+    float: right;
+    margin-top: -3.8%;
+    margin-right: 0.5%;
+    font-size: 125%;
+    border: solid 3px rgb(93, 93, 240);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    padding: 0.5%;
+}
+
+.search-bar:hover{
+    border: solid 3px rgb(113, 255, 248);
 }
