@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(36, 42, 61);
+    background-color: #242a3d;
     text-decoration: none;
     text-align: left;
 }
@@ -7,10 +7,20 @@
 .logo{
     color: royalblue;
     font-size: 250%;
+    font-weight: 800;
+   
+}
+
+.logo-mini{
+    color: rgb(157, 165, 234);
 }
 
 .logo:hover{
-    color: green;
+    color: rgb(150, 228, 241);
+}
+
+.logo-mini:hover{
+    color: rgb(90, 181, 197);
 }
 
 .top-hud{
@@ -22,10 +32,55 @@
 }
 
 .links{
-    color: rgb(50, 119, 184);
+    color: #3277b8;
     font-weight: bolder;
 }
 
 .links:hover{
-    color: yellow;
+    color: #5CCFFF;
 }
+
+.search-bar{
+    float: right;
+    margin-top: -3.8%;
+    margin-right: 0.5%;
+    font-size: 125%;
+    border: solid 3px rgb(93, 93, 240);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    padding: 0.5%;
+}
+
+.search-bar:hover{
+    border: solid 3px #71fff8;
+}
+
+.hud-test {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+
+  .hud-test a {
+    align-items: center;
+    text-align: center;
+    float: center;
+    padding: 12px;
+    color: #146269;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .hud-test a:hover {
+    background-color: #71fff8;
+  }
+ 
+  .hud-test i {
+    background: none;
+    background-color: #242a3d;
+  }
+  .hud-test i:hover{
+    background-color: #71fff8;
+  }
+
+  
