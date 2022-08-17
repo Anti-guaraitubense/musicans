@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(36, 42, 61);
+    text-decoration: none;
+    text-align: left;
+}
+
+.logo{
+    color: royalblue;
+    font-size: 250%;
+}
+
+.logo:hover{
+    color: green;
+}
+
+.top-hud{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 185%;
+    word-spacing: 20px;
+}
+
+.links{
+    color: rgb(50, 119, 184);
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: yellow;
+}
