@@ -1,47 +1,85 @@
 *{
     background-color: rgb(36, 42, 61);
     text-decoration: none;
-    text-align: left;
 }
 
+.material-icons{
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    word-wrap: normal;
+    white-space: nowrap;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  }
+
 .logo{
+    display: inline-block;
     color: royalblue;
     font-size: 250%;
     font-weight: 800;
+    transition: .35s;
 }
 
 .logo:hover{
     color: rgb(150, 228, 241);
+    font-size: 255%;
+    transition: .35s;
 }
 
 .top-hud{
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
     font-size: 185%;
-    word-spacing: 20px;
+    word-spacing: 40px;
+    text-transform: capitalize;
 }
 
 .links{
+    display: inline;
     color: rgb(50, 119, 184);
-    font-weight: bolder;
+    font-weight: 700;
+    transition: .25s;
 }
 
 .links:hover{
     color: yellow;
+    transition: .25s;
+    font-weight: 900;
 }
 
 .search-bar{
+    display: block;
     float: right;
-    margin-top: -3.8%;
+    margin-top: -3.95%;
     margin-right: 0.5%;
-    font-size: 125%;
+    font-size: 120%;
     border: solid 3px rgb(93, 93, 240);
     border-radius: 100px;
     color: rgb(255, 255, 255);
     padding: 0.5%;
+    transition: .5s;
 }
 
 .search-bar:hover{
+    transition: .5s;
     border: solid 3px rgb(113, 255, 248);
+}
+
+.populares{
+    display: inline-block;
+    word-spacing: 3px;
+}
+
+.estilos{
+    display: inline-block;
+    word-spacing: 3px;
+}
+
+.secreto{
+    display: inline-block;
+    word-spacing: 3px;
 }
