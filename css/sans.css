@@ -41,7 +41,7 @@
 .links{
     display: inline;
     color: rgb(50, 119, 184);
-    font-weight: 700;
+    font-weight: 600;
     transition: .25s;
 }
 
@@ -62,11 +62,17 @@
     color: rgb(255, 255, 255);
     padding: 0.5%;
     transition: .5s;
+    outline: none;
 }
 
 .search-bar:hover{
     transition: .5s;
     border: solid 3px rgb(113, 255, 248);
+}
+
+.search-bar:active{
+    transition: 10s;
+    border: solid 3px red;
 }
 
 .populares{
@@ -82,4 +88,11 @@
 .secreto{
     display: inline-block;
     word-spacing: 3px;
+}
+
+.foca{
+    margin-top: 30px;
+    margin-left: 465px;
+    border: solid 6px rgb(108, 1, 112);
+    border-radius: 30px;
 }
