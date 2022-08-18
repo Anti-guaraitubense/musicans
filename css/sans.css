@@ -22,13 +22,13 @@
     color: royalblue;
     font-size: 250%;
     font-weight: 800;
-    transition: .35s;
+    transition: .3s;
 }
 
 .logo:hover{
     color: rgb(150, 228, 241);
     font-size: 255%;
-    transition: .35s;
+    transition: .3s;
 }
 
 .top-hud{
