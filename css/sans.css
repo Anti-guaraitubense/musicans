@@ -117,7 +117,23 @@
     margin-top: 50px;
 
 }
-.hub{
+
+.frase3{
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
+    margin-top: 50px;
+
+}
+
+.frase4{
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
+    margin-top: 50px;
+
+}
+.fundo{
     text-align: center;
     float: right;
     margin-right: 500px;
@@ -132,4 +148,16 @@
 
 }
 
+.funkzao{
+    text-align: center;
+    float: right;
+    margin-right: 500px;
 
+}
+
+.muskito{
+    text-align: center;
+    float: right;
+    margin-right: 500px;
+    
+}
