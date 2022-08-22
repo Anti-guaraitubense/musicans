@@ -103,3 +103,16 @@
     height: 90%;
     transition: 10s;
 }
+
+.frase{
+    text-align: center;
+    font-size: 30px;
+    color: aquamarine;
+}
+.hub{
+    text-align: center;
+    float: right;
+    margin-right: 500px;
+    
+}
+
