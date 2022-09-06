@@ -141,15 +141,12 @@
     border: solid 4px rgba(7, 47, 170, 0.685);
     width: 14%;
     height: 50%;
-    transition: 0.50s;
+    transition: .75s;
 }
 
 .ad:hover{
-    width: 15%;
-    height: 55%;
-    border: solid 4px rgb(113, 255, 248);
-    transition: 0.50s;
-
+    border: solid 4px rgb(84, 109, 117);
+    transition: .75s;
 }
 
 .doril{
@@ -160,22 +157,71 @@
     float: right;
 }
 
-.login{
-    transition: 0.5s;
-    margin: 0;
+.musicas{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 200%;
 }
 
-.login:hover{
-    font-size: 26.5px;
-    transition: 0.5s;
-    
+/* MÚSICA 1 */
+
+.m1{
+    display: inline-block;
 }
 
-.register{
-    transition: 0.5s;
+.imgm1{
+    display: inline-block;
+    width: 5%;
+    vertical-align: text-top; /* alinhar a imagem na vertical com o texto ao lado */
+    padding-right: 15px;
 }
 
-.register:hover{
-    font-size: 26.5px;
-    transition: 0.5s;
+.nomem1{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem1:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
+/* MÚSICA 2 */
+
+.m2{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.imgm2{
+    display: inline-block;
+    width: 5%;
+    vertical-align: text-top; 
+    padding-right: 15px;
+}
+
+.nomem2{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem2:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
 }
