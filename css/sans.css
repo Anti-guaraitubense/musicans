@@ -115,7 +115,7 @@
 .user{
     float: right;
     position: absolute;
-    top: 3%;
+    top: 2.4%;
     right: 0.5%;
     font-size: 150%;
     font-weight: 700;
@@ -145,7 +145,7 @@
 }
 
 .ad:hover{
-    border: solid 4px rgb(84, 109, 117);
+    border: solid 4px rgb(96, 0, 252);
     transition: .75s;
 }
 
@@ -167,6 +167,7 @@
 
 .m1{
     display: inline-block;
+    margin-top: 1%;
 }
 
 .imgm1{
@@ -198,14 +199,15 @@
 
 .m2{
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .imgm2{
     display: inline-block;
+    border: solid 2px black;
     width: 5%;
     vertical-align: text-top; 
-    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .nomem2{
@@ -221,6 +223,39 @@
 }
 
 .nomem2:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
+/* MÚSICA 3 */
+
+.m3{
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.imgm3{
+    display: inline-block;
+    border: solid 2px black;
+    width: 5%;
+    vertical-align: text-top; 
+    margin-right: 15px;
+}
+
+.nomem3{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem3:hover{
     color: rgb(165, 222, 236);
     border: 3px solid rgb(113, 255, 248);
     transition: .5s;
