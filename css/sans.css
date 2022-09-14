@@ -136,6 +136,8 @@
 }
 
 .ad{
+    position: relative;
+    top: -30px;
     margin-top: 6%;
     border-radius: 5px;
     border: solid 4px rgba(7, 47, 170, 0.685);
@@ -159,22 +161,26 @@
 
 .musicas{
     text-align: center;
-    margin-top: 90px;
     font-size: 200%;
 }
 
 /* MÚSICA 1 */
 
 .m1{
+    position: relative;
     display: inline-block;
     margin-top: 1%;
+    left: 290px;
 }
 
 .imgm1{
+    position: relative;
     display: inline-block;
-    width: 5%;
+    max-width: 55px;
+    width: auto;
     vertical-align: text-top; /* alinhar a imagem na vertical com o texto ao lado */
-    padding-right: 15px;
+    top: -9px;
+    right: 12px;
 }
 
 .nomem1{
@@ -198,16 +204,23 @@
 /* MÚSICA 2 */
 
 .m2{
+    position: relative;
     display: inline-block;
     margin-top: 6%;
+    top: 100px;
+    right: 270px;
+
 }
 
 .imgm2{
+    position: relative;
     display: inline-block;
-    border: solid 2px black;
-    width: 5%;
+    max-width: 55px;
+    width: auto;
     vertical-align: text-top; 
-    margin-right: 15px;
+    right: 12px;
+    top: -9px;
+
 }
 
 .nomem2{
@@ -233,14 +246,19 @@
 .m3{
     display: inline-block;
     margin-top: 6%;
+    position: relative;
+    top: 50px;
+    
 }
 
 .imgm3{
+    position: relative;
     display: inline-block;
-    border: solid 2px black;
-    width: 5%;
+    max-width: 55px;
+    width: auto;
     vertical-align: text-top; 
-    margin-right: 15px;
+    right: 12px;
+    top: -9px;
 }
 
 .nomem3{
@@ -260,3 +278,37 @@
     border: 3px solid rgb(113, 255, 248);
     transition: .5s;
 }
+
+.m4{
+    display: inline-block;
+    margin-top: 6%;
+}
+
+.imgm4{
+    position: relative;
+    display: inline-block;
+    max-width: 55px;
+    width: auto;
+    vertical-align: text-top; 
+    right: 12px;
+    top: -9px;
+}
+
+.nomem4{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem4:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
