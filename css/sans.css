@@ -3,10 +3,6 @@
     text-decoration: none;
 }
 
-*::selection{
-    color: rgb(28, 109, 25);
-}
-
 .material-icons{
     font-size: 20px;  /* Preferred icon size */
     display: inline-block;
@@ -46,6 +42,7 @@
 
 .links{
     position: relative;
+    top: 10px;
     display: inline-block;
     color: rgb(50, 119, 184);
     font-weight: 600;
@@ -147,7 +144,7 @@
 .ad{
     position: relative;
     top: -30px;
-    margin-top: 6%;
+    margin-top: 8.9%;
     border-radius: 5px;
     border: solid 4px rgba(7, 47, 170, 0.685);
     width: 14%;
@@ -159,8 +156,8 @@
 .teemo{
     display: flex;
     position: absolute;
-    margin-top: 300px;
-    margin-left: -2px;
+    margin-top: -50px;
+    margin-left: -5px;
     width: .5%;
     height: .5%;
     transition: .1s;
@@ -200,9 +197,9 @@
     border-radius: 10px;
 }
 
-.zezin_cu_de_apito{
+.musicafix{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-right: 4px;
 }
 
@@ -215,7 +212,7 @@
 }
 
 .seis{
-    color: rgb(207, 169, 63);
+    color: rgb(223, 172, 35);
 }
 
 /* MÚSICA 1 */
@@ -341,4 +338,19 @@
     color: rgb(165, 222, 236);
     border: 3px solid rgb(113, 255, 248);
     transition: .5s;
+}
+
+
+.social-media{
+    text-align: left;
+}
+
+h3{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.baixo{
+    display: flex;
+    margin-top: 4%;
 }
