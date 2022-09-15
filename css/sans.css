@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+*::selection{
+    color: rgb(28, 109, 25);
+}
+
 .material-icons{
     font-size: 20px;  /* Preferred icon size */
     display: inline-block;
@@ -46,7 +50,6 @@
     color: rgb(50, 119, 184);
     font-weight: 600;
     transition: .25s;
-    z-index: 3;
 }
 
 .links:hover{
@@ -153,6 +156,23 @@
     z-index: 2;
 }
 
+.teemo{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -2px;
+    width: .5%;
+    height: .5%;
+    transition: .1s;
+}
+
+.teemo:hover{
+    z-index: 50;
+    width: 99%;
+    height: 90%;
+    transition-delay: 2s;
+}
+
 .ad:hover{
     border: solid 4px rgb(96, 0, 252);
     transition: .75s;
@@ -167,28 +187,47 @@
 }
 
 .musicas{
-    z-index: 1;
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 200%;
-    top: -50;
+    margin-top: 60px;
+}
+
+.imgs{
+    max-width: 45px;
+    vertical-align: -33%; /* alinhar a imagem na vertical com o texto ao lado */
+    border-radius: 10px;
+}
+
+.zezin_cu_de_apito{
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 4px;
+}
+
+.quatro{
+    color: rgb(108, 161, 39);
+}
+
+.cinco{
+    color: rgb(226, 226, 64);
+}
+
+.seis{
+    color: rgb(207, 169, 63);
 }
 
 /* MÚSICA 1 */
 
 .m1{
-    position: relative;
     display: inline-block;
-    margin-top: 1%;
     top: 150px;
 }
 
 .imgm1{
-    position: relative;
     display: inline-block;
-    max-width: 55px;
     width: auto;
-    vertical-align: text-top; /* alinhar a imagem na vertical com o texto ao lado */
     top: -9px;
     right: 12px;
 }
@@ -214,22 +253,15 @@
 /* MÚSICA 2 */
 
 .m2{
-    position: relative;
     display: inline-block;
-    margin-top: 6%;
-    top: 100px;
-
+    top: 250px;
 }
 
 .imgm2{
-    position: relative;
     display: inline-block;
-    max-width: 55px;
     width: auto;
-    vertical-align: text-top; 
     right: 12px;
     top: -9px;
-
 }
 
 .nomem2{
@@ -254,18 +286,12 @@
 
 .m3{
     display: inline-block;
-    margin-top: 6%;
-    position: relative;
-    top: 50px;
-    
+    top: 250px;
 }
 
 .imgm3{
-    position: relative;
     display: inline-block;
-    max-width: 55px;
     width: auto;
-    vertical-align: text-top; 
     right: 12px;
     top: -9px;
 }
@@ -290,15 +316,11 @@
 
 .m4{
     display: inline-block;
-    margin-top: 6%;
 }
 
 .imgm4{
-    position: relative;
     display: inline-block;
-    max-width: 55px;
     width: auto;
-    vertical-align: text-top; 
     right: 12px;
     top: -9px;
 }
@@ -320,4 +342,3 @@
     border: 3px solid rgb(113, 255, 248);
     transition: .5s;
 }
-
