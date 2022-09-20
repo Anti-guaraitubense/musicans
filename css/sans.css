@@ -340,17 +340,17 @@
     transition: .5s;
 }
 
+.baixo{
+    position: relative;
+    top: 25%;
+    left: -13%;
+}
+
+.sexo{
+    background-color: red;
+}
 
 .social-media{
     text-align: left;
 }
 
-h3{
-    text-decoration: none;
-    color: blueviolet;
-}
-
-.baixo{
-    display: flex;
-    margin-top: 4%;
-}
