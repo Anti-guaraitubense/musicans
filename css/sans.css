@@ -1,6 +1,9 @@
 *{
     background-color: rgb(36, 42, 61);
     text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 .material-icons{
@@ -348,9 +351,31 @@
 h3{
     text-decoration: none;
     color: blueviolet;
+    font-size: 20px;
 }
 
 .baixo{
     display: flex;
     margin-top: 4%;
+    padding: 24px;
+}
+
+ul{
+    list-style: none;
+    display: list-item;
+    gap: 16px;
+   
+}
+
+li {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.sans-about{
+    padding-left: 24px;
+}
+
+.titles{
+    display:flex;
 }
