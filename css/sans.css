@@ -343,10 +343,16 @@
     transition: .5s;
 }
 
-
-.social-media{
-    text-align: left;
+.baixo{
+    position: relative;
+    top: 25%;
+    left: -13%;
 }
+
+.sexo{
+    background-color: red;
+}
+
 
 h3{
     text-decoration: none;
@@ -379,3 +385,9 @@ li {
 .titles{
     display:flex;
 }
+=======
+.social-media{
+    text-align: left;
+}
+
+>>>>>>> 5a78afad88bf31fefd6cbe0bdcf60bdcb475e795
