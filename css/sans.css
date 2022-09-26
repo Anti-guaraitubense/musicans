@@ -345,26 +345,21 @@
 
 .baixo{
     position: relative;
-    top: 25%;
+    top: 12%;
     left: -13%;
 }
 
-.sexo{
-    background-color: red;
-}
-
-
 h3{
     text-decoration: none;
-    color: blueviolet;
-    font-size: 20px;
+    color: royalblue;
+    font-size: 24px;
 }
 
 .baixo{
     display: flex;
-    margin-top: 4%;
-    padding: 24px;
+    padding: 2%;
 }
+
 
 ul{
     list-style: none;
@@ -374,19 +369,42 @@ ul{
 }
 
 li {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 15px;
 }
 
 .sans-about{
-    padding-left: 24px;
+    padding-left: 16%;
 }
 
 .titles{
     display:flex;
+    transition: 0.5s;
+}
+
+.titles:hover{
+    color: rgb(113, 255, 248);
+    transition: 0.5s;
 }
 
 .social-media{
     text-align: left;
+    text-decoration: none; 
+
 }
+
+.inside-sans{
+    color: rgb(93, 93, 240);
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.inside-sans:hover{
+    color: rgb(165, 222, 236);
+    transition: 0.5s;
+}
+
+
+
 
