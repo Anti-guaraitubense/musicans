@@ -108,8 +108,8 @@
 .foca{
     margin-top: -4%;
     border-radius: 17px;
-    width: 13%;
     height: 5%;
+    width: 13%;
     transition: 2.5s;
     position: relative;
     z-index: 5;
@@ -154,23 +154,6 @@
     height: 50%;
     transition: .75s;
     z-index: 2;
-}
-
-.teemo{
-    display: flex;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: -5px;
-    width: .5%;
-    height: .5%;
-    transition: .1s;
-}
-
-.teemo:hover{
-    z-index: 50;
-    width: 99%;
-    height: 90%;
-    transition-delay: 2s;
 }
 
 .ad:hover{
