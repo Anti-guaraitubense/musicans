@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     display: flex;
     justify-content: center;
@@ -62,7 +63,7 @@ body{
 }
 .inside-box h2{
     color: #456fef;
-    font-weight: 500;
+    font-weight: bolder;
     text-align: center;
     letter-spacing: 0.1em;
 }
@@ -129,15 +130,17 @@ body{
 .links a{
    position: relative;
    left: -25px;
-   top: 25px;
+   top: 40px;
    font-size: 1em;
    color: #3277b8;
    text-decoration: none;
+   transition: .3s;
 }
 .links a:hover,
 .links a:nth-child(2)
 {
     color: #5fa3e3;
+    transition: .3s;
 }
 input[type="submit"]{
     border: none;
@@ -149,7 +152,23 @@ input[type="submit"]{
     border-radius: 4px;
     font-weight: 600;
     cursor: pointer;
-
+    position: relative;
+    top: 15px;
+    transition: .4s;
 }
 
+input[type="submit"]:hover{
+    border: none;
+    outline: none;
+    background: #365b7e;
+    padding: 11px 25px;
+    width: 100px;
+    margin-top: px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    transition: .4s;
+}
 
