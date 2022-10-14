@@ -1,9 +1,11 @@
 *{
-    background-color: #242a3d;
+    background-color: rgb(36, 42, 61);
     text-decoration: none;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    width: auto;
+    height: auto;
 }
 
 .material-icons{
@@ -18,11 +20,11 @@
     -webkit-font-smoothing: antialiased;
     /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-  }
+}
 
 .logo{
     display: inline-block;
-    color: #4169e1;
+    color: royalblue;
     font-size: 250%;
     font-weight: 800;
     transition: .3s;
@@ -32,6 +34,50 @@
     color: rgb(150, 228, 241);
     font-size: 255%;
     transition: .3s;
+}
+
+.user{
+    position: relative;
+    display: flex;
+    left: -4%;
+    top: 3%;
+    float: right;
+    font-weight: 700;
+    text-decoration: none; 
+}
+
+.login{
+    color: rgb(50, 119, 184);
+    transform: scale(2.5);
+    transition: transform .3s;
+}
+
+.login:hover{
+    color: rgb(113, 255, 248);
+    transform: scale(3);
+    transition: transform .3s;
+}
+
+.logout{
+    position: relative;
+    display: flex;
+    left: 1%;
+    top: 7.5%;
+    float: right;
+    font-weight: 700;
+    text-decoration: none; 
+}
+
+.sair{
+    color: rgb(50, 119, 184);
+    transform: scale(2);
+    transition: transform .3s;
+}
+
+.sair:hover{
+    color: rgb(113, 255, 248);
+    transform: scale(2.3);
+    transition: transform .3s;
 }
 
 .top-hud{
@@ -47,7 +93,7 @@
     position: relative;
     top: 10px;
     display: inline-block;
-    color: #3277b8;
+    color: rgb(50, 119, 184);
     font-weight: 600;
     transition: .25s;
 }
@@ -105,6 +151,11 @@
     word-spacing: 3px;
 }
 
+.partitura{
+    text-align: center;
+    margin-top: 2%;
+}
+
 .foca{
     margin-top: -4%;
     border-radius: 17px;
@@ -120,30 +171,6 @@
     height: 90%;
     transition: 10s;
 }
-
-.user{
-    float: right;
-    position: absolute;
-    top: 2.4%;
-    right: 0.5%;
-    font-size: 150%;
-    font-weight: 700;
-    word-spacing: 20px;
-    text-decoration: none; 
-    padding: 7px;
-}
-
-.account{
-    color: rgb(50, 119, 184);
-    transition: .25s;
-}
-
-.account:hover{
-    color: rgb(113, 255, 248);
-    transition: .25s;
-    font-weight: 800;
-}
-
 #partitura{
     position: relative;
     text-align: center;

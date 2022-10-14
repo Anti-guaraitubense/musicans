@@ -172,3 +172,18 @@ input[type="submit"]:hover{
     transition: .4s;
 }
 
+.music{
+    position: absolute;
+    transform: scale(3);
+    display: inline-block;
+    margin-top: -350px;
+    margin-left: 115px;
+    color: #4169e1;
+    transition: transform, color, .2s;
+}
+
+.music:hover{
+    transform: scale(3.1);
+    transition: transform, color, .2s;
+    color: rgb(150, 228, 241);
+}

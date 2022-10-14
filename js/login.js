@@ -5,7 +5,7 @@ function login(){
 
     if(user === "admin" && pass === "admin" || user === "user" && pass === "user")
     {
-        window.location.href = "musicsans.html";
+        window.location.href = "musicsanslogin.html";
     }
     else
     {
