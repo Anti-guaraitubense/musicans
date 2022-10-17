@@ -12,4 +12,3 @@ function login(){
         window.location.href = "erro.html";
     }
 }
-

@@ -90,3 +90,22 @@ else if(partitura_param === 'howlsmovingcastle')
     img7.src = 'img/partitura/howls_pag7.jpg';
     document.getElementById('partitura7').appendChild(img7);
 }
+
+function alerta(){
+    if(partitura_param === "zeldaocarinaoftime")
+    {
+        window.location.href = "partitura.html?partitura=zeldaocarinaoftime";
+    }
+    else if(partitura_param === "fallendown")
+    {
+        window.location.href = "partitura.html?partitura=fallendown"
+    }
+    else if(partitura_param === "redswan")
+    {
+        window.location.href = "partitura.html?partitura=redswan"
+    }
+    else if(partitura_param === "howlsmovingcastle")
+    {
+        window.location.href = "partitura.html?partitura=howlsmovingcastle"
+    }
+}
