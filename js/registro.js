@@ -4,7 +4,7 @@ function cadastro(){
     let user = document.getElementById("user").value;
     let pass = document.getElementById("pass").value;
 
-    let emailcheck = email.includes("gmail.com");
+    let emailcheck = email.includes("@gmail.com");
     let usercheck = user.length;
     let passcheck = pass.length;
 
@@ -14,6 +14,6 @@ function cadastro(){
     }
     else
     {
-        window.location.href = "cadastro.html";
+        window.location.href = "registro.html";
     }
 }

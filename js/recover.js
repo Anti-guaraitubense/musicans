@@ -1,4 +1,4 @@
-const url_param = new URLSearchParams(window.location.search);
+const url_param = URLSearchParams(window.location.search);
 const recover_param = url_param.get("rec");
 
 let mudaemail = document.querySelector("#txtcode")

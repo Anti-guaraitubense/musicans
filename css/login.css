@@ -130,6 +130,7 @@ body{
 .links a{
    position: relative;
    left: -25px;
+   height: 20px;
    top: 40px;
    font-size: 1em;
    color: #3277b8;

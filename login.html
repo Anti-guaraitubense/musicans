@@ -10,7 +10,7 @@
     <script src="js/login.js"></script>
     <script src="js/accname.js"></script>
 </head>
-<body>
+<body onkeydown="click_enter(event)">
 
 <div class="titulo">
     <h1 class="music">MusicSans</h1>
@@ -30,11 +30,10 @@
             <i></i>
         </div>
         <div class="links">
-<br>
-<br><br><br><a href="recover.html">Esqueci a senha</a>
+            <br><br><br><br>
+            <a href="recover.html">Esqueci a senha</a>
 
             <a href="registro.html">Registrar</a>
-
 
             <input type="submit" value="Login" class="c" onclick="login()">
         </div>
