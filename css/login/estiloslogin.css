@@ -37,7 +37,7 @@
 .user{
     position: relative;
     display: flex;
-    left: -4%;
+    left: -6%;
     top: 3%;
     float: right;
     font-weight: 700;
@@ -59,8 +59,8 @@
 .logout{
     position: relative;
     display: flex;
-    left: 1%;
-    top: 7.5%;
+    left: 2%;
+    top: 9%;
     float: right;
     font-weight: 700;
     text-decoration: none; 

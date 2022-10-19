@@ -1,4 +1,4 @@
-const url_param = URLSearchParams(window.location.search);
+const url_param = new URLSearchParams(window.location.search);
 const recover_param = url_param.get("rec");
 
 let mudaemail = document.querySelector("#txtcode")
@@ -16,15 +16,14 @@ function code(){
     {
         window.location.href = "recover.html?rec=code";
     }
-    else if(user.length > 2 && email.length > 2)
+    else if(user.length > 2 && email.length > 2)    
     {
         window.location.href = "musicsanslogin.html";
     }
     else
     {
-        window.location.href = "recover.html?rec=code";
+        document.location.reload(true);
     }
-    
 }
 
 if(recover_param === "code")
@@ -33,4 +32,13 @@ if(recover_param === "code")
     mudauser.innerHTML = "Nova Senha";
     document.getElementById("email").type = "number";
     document.getElementById("user").type = "password";
+}
+
+function press_enter(event){
+    let enter = event.keyCode;
+
+    if(enter === 13)
+    {
+        code();
+    }
 }
