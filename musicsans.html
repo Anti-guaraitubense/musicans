@@ -14,10 +14,10 @@
         <meta charset="UTF-8">
         <title>MusicSans</title>
         <link rel="stylesheet" href="css/sans.css">
-        <script type="text/javascript" src="js/scriptmain.js"></script>
+        <script type="text/javascript" src="js/scriptmain.js" defer></script>
         <link rel="icon" href="img/icon.ico">
     </head>
- <body>
+ <body onload="change_adleft(); change_adright()">
 
     <a class="logo" href="musicsans.html">MusicSans</a>
 
@@ -63,10 +63,10 @@
     </div>
    
     <a href="https://twitter.com/g1/status/768903771" target="_blank"> 
-        <img class="ad doril" src="img/doril.png">
+        <img class="ad doril" id="adchange">
     </a>
     <a href="https://twitter.com/i/status/1561771980042420224" target="_blank">
-        <img class="ad bombril" src="img/bombril.jpg">
+        <img class="ad bombril" id="adchange2">
     </a>
 
     <div class="musicas">
