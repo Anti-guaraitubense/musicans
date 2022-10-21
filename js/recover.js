@@ -9,9 +9,7 @@ function code(){
     let email = document.getElementById("email").value;
     let emailcheck = email.includes("@gmail.com");
     let user = document.getElementById("user").value;
-
-    let pass = document.getElementById("newpass");
-
+    
     if(emailcheck && user.length > 2)
     {
         window.location.href = "recover.html?rec=code";
