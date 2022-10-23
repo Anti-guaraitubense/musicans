@@ -218,3 +218,23 @@
     text-align: center;
     top: 13%;
 }
+
+.partitura-download{
+    position: relative;
+    display: inline-block;
+    transform: scale(2);
+    left: 90%;
+}
+.partitura-download button{
+    color: red;
+    border-color: red;
+    transition: transform .3s;
+    border-radius: 2px;
+}
+
+.partitura-download button:hover{
+    transform: scale(1.05);
+    color: rgb(55, 0, 255);
+    border-color: rgb(30, 255, 0);
+    transition: transform .3s;
+}
