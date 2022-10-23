@@ -91,7 +91,7 @@ else if(partitura_param === 'howlsmovingcastle')
     document.getElementById('partitura7').appendChild(img7);
 }
 
-function alerta(){
+function linkpartitura(){
     if(partitura_param === "zeldaocarinaoftime")
     {
         window.location.href = "partitura.html?partitura=zeldaocarinaoftime";
@@ -107,5 +107,27 @@ function alerta(){
     else if(partitura_param === "howlsmovingcastle")
     {
         window.location.href = "partitura.html?partitura=howlsmovingcastle"
+    }
+}
+
+function downloadpartitura(){
+    
+    let part = document.getElementById("partitura-certa");
+
+    if(partitura_param === "fallendown")
+    {
+        part.href = "pdf/fallendown_pdf.pdf";
+    }
+    else if(partitura_param === "zeldaocarinaoftime")
+    {
+        part.href = "pdf/zelda_pdf.pdf";
+    }
+    else if(partitura_param === "howlsmovingcastle")
+    {
+        part.href = "pdf/howls_pdf.pdf";
+    }
+    else if(partitura_param === "redswan")
+    {
+        part.href = "pdf/redswan_pdf.pdf";
     }
 }

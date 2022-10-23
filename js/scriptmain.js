@@ -4,7 +4,7 @@ function rand_int_number(min, max){
     return Math.floor(Math.random() * (max)) + min;
 }
 
-var qntd_ad = 6;
+var qntd_ad = 7;
 var chance_sans = rand_int_number(1, 500);
 
 function change_adleft(){
@@ -45,6 +45,10 @@ function change_adleft(){
         }
         else if(rnd === 6){
             ad.src = "img/colgad.jpg";
+        }
+        else if(rnd === 7)
+        {
+            ad.src = "img/pepsiad.jpg";
         }
     }
 }
@@ -87,6 +91,10 @@ function change_adright(){
         }
         else if(rnd === 6){
             ad.src = "img/colgad.jpg";
+        }
+        else if(rnd === 7)
+        {
+            ad.src = "img/pepsiad.jpg";
         }
     }
 }
