@@ -221,7 +221,7 @@
     border: 3px solid rgb(93, 93, 240);
     color: rgb(50, 119, 184);
     padding: 15px;
-    padding-left: 55px;
+    padding-left: 56px;
     padding-right: 55px;
     border-radius: 40px;
     font-weight: normal;
@@ -253,8 +253,8 @@
     border: 3px solid rgb(93, 93, 240);
     color: rgb(50, 119, 184);
     padding: 15px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 57px;
+    padding-right: 57px;
     border-radius: 40px;
     font-weight: normal;
 }
@@ -285,8 +285,8 @@
     border: 3px solid rgb(93, 93, 240);
     color: rgb(50, 119, 184);
     padding: 15px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 62px;
+    padding-right: 62px;
     border-radius: 40px;
     font-weight: normal;
 }
@@ -314,10 +314,11 @@
     border: 3px solid rgb(93, 93, 240);
     color: rgb(50, 119, 184);
     padding: 15px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 60px;
+    padding-right: 56px;
     border-radius: 40px;
     font-weight: normal;
+    width: 884px;
 }
 
 .nomem4:hover{

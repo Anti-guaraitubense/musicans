@@ -193,21 +193,25 @@
 }
 
 .partitura-download{
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 90%;
     transform: scale(2);
-    left: 90%;
+    z-index: 1;
 }
 .partitura-download button{
-    color: red;
-    border-color: red;
-    transition: transform .3s;
+    color: rgb(62, 137, 207);
+    background-color: rgba(33, 60, 85, 0.445);
+    border-color: rgb(35, 85, 133);
+    transition: transform .4s;
+    height: 30px;
+    width: 110px;
     border-radius: 2px;
 }
 
 .partitura-download button:hover{
     transform: scale(1.05);
-    color: rgb(55, 0, 255);
-    border-color: rgb(30, 255, 0);
-    transition: transform .3s;
+    color: rgb(113, 255, 248);
+    border-color: rgb(113, 255, 248);
+    transition: transform .4s;
 }
