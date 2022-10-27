@@ -156,9 +156,14 @@
 .instruments{
     margin-top: 150px;
     display: flex;
-    
 }
-.piano{
+.instruments2{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -65px;
+    display: flex;
+}
+.linha1{
     color:rgb(69, 107, 189);
     font-size: 250%;
     border: 3px solid;
@@ -171,26 +176,29 @@
     transition: .2s;
     border-radius: 20px;
 }
-.piano:hover{
+.linha1:hover{
     color:rgb(113, 255, 248);
     transition: .2s;
 }
 
-.violao{
+.linha2{
     color:rgb(69, 107, 189);
     font-size: 250%;
     border: 3px solid;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 200px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
     transition: .2s;
     border-radius: 20px;
-
 }
-.violao:hover{
+.linha2:hover{
     color:rgb(113, 255, 248);
     transition: .2s;
+}
+
+.saxofone{
+    margin-left: 185px;
 }
