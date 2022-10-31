@@ -195,7 +195,7 @@
 .partitura-download{
     position: absolute;
     margin-top: 4%;
-    margin-left: 90%;
+    margin-left: 85%;
     transform: scale(2);
     z-index: 1;
 }
