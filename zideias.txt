@@ -13,11 +13,13 @@
     2.4 - Alterar nome de Estilos -> Gêneros                                        // Feito
 
 3 - Gêneros
-    3.1 - Criar a base do html
+    3.1 - Criar a base do html                                                      // Feito
     3.2 - Escolher os gêneros                                                       // Feito
         3.2.1 - Escolher as músicas de cada um
     3.4 - Baixar pedaço da música igual no 1.4
     3.5 - Usar parametro no link                                                    // Feito
+    3.6 - Base de JS                                                                // Feito
+        3.6.1 - If com parametros                                                   // Feito
 
 4 - Populares
     4.1 - Base html                                                                 // Feito
