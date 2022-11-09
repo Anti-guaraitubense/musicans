@@ -151,3 +151,189 @@
 .link-instrumento:hover{
     color: rgb(55, 161, 161);
 }
+
+.musicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 200%;
+    margin-top: 60px;
+}
+
+.imgs{
+    max-width: 45px;
+    vertical-align: -33%; /* alinhar a imagem na vertical com o texto ao lado */
+    border-radius: 10px;
+}
+
+.musicafix{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 4px;
+}
+
+.um{
+    color: rgb(0, 255, 42);
+}
+
+.dois{
+    color: rgb(66, 206, 23);
+}
+
+.tres{
+    color: rgb(77, 206, 38);
+}
+
+.quatro{
+    color: rgb(108, 161, 39);
+}
+
+.cinco{
+    color: rgb(226, 226, 64);
+}
+
+.seis{
+    color: rgb(223, 172, 35);
+}
+
+.sete{
+    color: rgb(182, 138, 19);
+}
+
+.oito{
+    color: rgb(182, 111, 19);
+}
+
+.nove{
+    color: rgb(182, 35, 30);
+}
+
+.dez{
+    color: rgb(255, 8, 0);
+}
+
+/* MÚSICA 1 */
+
+.m1{
+    display: inline-block;
+    top: 150px;
+}
+
+.imgm1{
+    display: inline-block;
+    width: auto;
+    top: -9px;
+    right: 12px;
+}
+
+.nomem1{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 56px;
+    padding-right: 55px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem1:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
+/* MÚSICA 2 */
+
+.m2{
+    display: inline-block;
+    top: 250px;
+}
+
+.imgm2{
+    display: inline-block;
+    width: auto;
+    right: 12px;
+    top: -9px;
+}
+
+.nomem2{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 57px;
+    padding-right: 57px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem2:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
+/* MÚSICA 3 */
+
+.m3{
+    display: inline-block;
+    top: 250px;
+}
+
+.imgm3{
+    display: inline-block;
+    width: auto;
+    right: 12px;
+    top: -9px;
+}
+
+.nomem3{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 62px;
+    padding-right: 62px;
+    border-radius: 40px;
+    font-weight: normal;
+}
+
+.nomem3:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}
+
+.m4{
+    display: inline-block;
+}
+
+.imgm4{
+    display: inline-block;
+    width: auto;
+    right: 12px;
+    top: -9px;
+}
+
+.nomem4{
+    transition: .5s;
+    text-decoration: none;
+    border: 3px solid rgb(93, 93, 240);
+    color: rgb(50, 119, 184);
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 56px;
+    border-radius: 40px;
+    font-weight: normal;
+    width: 884px;
+}
+
+.nomem4:hover{
+    color: rgb(165, 222, 236);
+    border: 3px solid rgb(113, 255, 248);
+    transition: .5s;
+}

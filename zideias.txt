@@ -22,6 +22,7 @@
     3.5 - Usar parametro no link                                                    // Feito
     3.6 - Base de JS                                                                // Feito
         3.6.1 - If com parametros                                                   // Feito
+    3.7 - Pdf de todas as musicas (Moonlight sonata - piano, são os 3 mvt)
 
 4 - Populares
     4.1 - Base html                                                                 // Feito
