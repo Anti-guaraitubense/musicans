@@ -51,7 +51,29 @@ function inst_atual(){
     }
     else if(inst_param === "violao")
     {
-    
+        imgm1.src = "img/autumnleaves.jpeg";
+        nomem1.textContent= "     Autumn Leaves   -  Joseph Kosma - ";
+        nota1.classList.add("tres");
+        nota1.textContent = "3";
+        link1.href = "partitura.html?partitura=autumnleaves";
+
+        imgm2.src = "img/shapeofmyheart.jpeg";
+        nomem2.textContent = "     Shape of my heart -     Sting      - ";
+        nota2.classList.add("cinco");
+        nota2.textContent = "5";
+        link2.href = "partitura.html?partitura=shapeofmyheart";
+
+        imgm3.src = "img/theanimals.png";
+        nomem3.textContent = " The house of the rising sun - The animals - ";
+        nota3.classList.add("sete");
+        nota3.textContent = "7";
+        link3.href = "partitura.html?partitura=theanimals";
+
+        imgm4.src = "img/cafe1930.jpg";
+        nomem4.textContent = "       Cafe 1930       - Astor Piazzola - ";
+        nota4.classList.add("seis")
+        nota4.textContent = "6";
+        link4.href = "partitura.html?partitura=cafe1930";
     }
     else if(inst_param === "bateria")
     {
