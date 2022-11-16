@@ -76,11 +76,35 @@ function inst_atual(){
         link4.href = "partitura.html?partitura=cafe1930";
     }
     else if(inst_param === "bateria")
-    {
+    {   
     
     }
     else if(inst_param === "trompete")
-    {
+    {  
+        imgm1.src = "img/giornotheme.jpg";
+        nomem1.textContent = " Giorno Theme - Yugo Kanno -";
+        nota1.classList.add("seis");
+        nota1.textContent = "6";
+        link1.href = "partitura.html?partitura=giornotheme"
+
+        imgm2.src = "img/lazytown.jpg";
+        nomem2.textContent = " We Are Number One - Lazy Town -";
+        nota2.classList.add("dois");
+        nota2.textContent = "2";
+        link2.href = "partitura.html?partitura=lazytown"
+
+        imgm3.src = "img/mariokart.jpg";
+        nomem3.textContent = " Coconut Mall from Mario Kart Wii - Asuka Ohta -";
+        nota3.classList.add("seis");
+        nota3.textContent = "6";
+        link3.href = "partitura.html?partitura=mariokartwii"
+
+        imgm4.src = "img/pianoconcerto.jpg";
+        nomem4.textContent = " Piano Concerto No.1 in B flat minor Op.23 - Tchaikovsky -";
+        nota4.classList.add("oito");
+        nota4.textContent = "8";
+        link4.href = "partitura.html?partitura=pianoconcerto"
+        
     
     }
     else if(inst_param === "violino")
