@@ -77,6 +77,31 @@ function inst_atual(){
     }
     else if(inst_param === "bateria")
     {   
+        
+        imgm1.src = "img/begging.jpg";
+        nomem1.textContent = " Beggin'  - Måneskin/Snoop Dog -";
+        nota1.classList.add("dois");
+        nota1.textContent = "2";
+        link1.href = "partitura.html?partitura=beggin"
+
+        imgm2.src = "img/monster.jpg";
+        nomem2.textContent = " Monster - Skillet -";
+        nota2.classList.add("cinco");
+        nota2.textContent = "5";
+        link2.href = "partitura.html?partitura=monster"
+
+        imgm3.src = "img/billieeilish.jpg";
+        nomem3.textContent = " No Time to Die - Billie Eilish -";
+        nota3.classList.add("dez");
+        nota3.textContent = "10";
+        link3.href = "partitura.html?partitura=notimetodie"
+
+        imgm4.src = "img/substance.jpg";
+        nomem4.textContent = " SUBSTANCE - Demi Lovato -";
+        nota4.classList.add("sete");
+        nota4.textContent = "7";
+        link4.href = "partitura.html?partitura=substance"
+        
     
     }
     else if(inst_param === "trompete")
@@ -109,6 +134,29 @@ function inst_atual(){
     }
     else if(inst_param === "violino")
     {
+        imgm1.src = "img/kiminonawa.jpg";
+        nomem1.textContent = "  Kimi No Na Wa -    你的名字    - ";
+        nota1.classList.add("cinco");
+        nota1.textContent = "5";
+        link1.href = "partitura.html?partitura=kiminonawa";
+
+        imgm2.src = "img/amongus.jpg";
+        nomem2.textContent = "Among Us Drip  -    Leonz     - ";
+        nota2.classList.add("tres");
+        nota2.textContent = "3";
+        link2.href = "partitura.html?partitura=amongusdrip";
+
+        imgm3.src = "img/takefive.jpg";
+        nomem3.textContent = "   Take Five  -       The Dave Brubeck Quartet      - ";
+        nota3.classList.add("seis");
+        nota3.textContent = "6";
+        link3.href = "partitura.html?partitura=takefive";
+
+        imgm4.src = "img/canonind.jpg";
+        nomem4.textContent = "   Canon in D    -  The White Strapes  - ";
+        nota4.classList.add("sete");
+        nota4.textContent = "7";
+        link4.href = "partitura.html?partitura=canonind";
     
     }
     else if(inst_param === "saxofone")
