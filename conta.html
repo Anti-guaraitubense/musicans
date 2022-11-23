@@ -15,6 +15,7 @@
         <title>MusicSans</title>
         <link rel="stylesheet" href="css/login/conta.css">
         <link rel="icon" href="img/icon.ico">
+        <script src="js/conta.js" defer></script>
     </head>
  <body>
 
@@ -39,5 +40,19 @@
 
     </div>
 
+
+    <img src="img/user.png" id="user_foto">
+
+    <div id="proxant">
+        <input type="submit" value="< Anterior" id="enviar_foto" onclick="ant_foto(); att_foto()">
+        <input type="submit" value="Proxima >" id="enviar_foto" onclick="prox_foto(); att_foto()">
+        <div>
+            <input type="submit" value="Salvar" id="salvar_foto" onclick="rtrn_opt()">
+        </div>
+    </div>
+
+    <div class="mudar-perfil">
+        <input type="submit" value="Trocar foto" id="botaoperfil" onclick="change_opt()">
+    </div>
 </body> 
 </html>

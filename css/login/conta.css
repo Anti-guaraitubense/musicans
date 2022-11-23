@@ -164,3 +164,59 @@
     transform: scale(2.3);
     transition: transform .3s;
 }
+
+#user_foto{
+    width: 10%;
+    height: 20%;
+    border: 3px solid rgb(50, 119, 184);
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#sub_foto{
+    display: block;
+    margin-top: 1%;
+}
+
+#enviar_foto{
+    color: blue;
+}   
+#enviar_foto:hover{
+    color: red;
+}
+#enviar_foto:active
+{
+    color: purple;
+}
+
+#salvar_foto{
+    margin-left: 2.4%;
+    margin-top: .7%;
+    color: blue;
+}
+#salvar_foto:hover{
+    color: red;
+}
+#salvar_foto:active
+{
+    color: purple;
+}
+
+#proxant{
+    display: none;
+    padding-top: 1%;
+    padding-left: 6.5%;
+}
+
+.mudar-perfil{
+    padding-top: 1%;
+    padding-left: 8%;
+}
+
+#botaoperfil:hover{
+    color: #4169e1;
+}
+#botaoperfil:active{
+    color: aqua;
+}

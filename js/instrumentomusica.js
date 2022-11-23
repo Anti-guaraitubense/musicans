@@ -79,25 +79,25 @@ function inst_atual(){
     {   
         
         imgm1.src = "img/begging.jpg";
-        nomem1.textContent = " Beggin'  - Måneskin/Snoop Dog -";
+        nomem1.textContent = "         Beggin'      -    Måneskin  -   ";
         nota1.classList.add("dois");
         nota1.textContent = "2";
         link1.href = "partitura.html?partitura=beggin"
 
         imgm2.src = "img/monster.jpg";
-        nomem2.textContent = " Monster - Skillet -";
+        nomem2.textContent = "         Monster     -     Skillet    -   ";
         nota2.classList.add("cinco");
         nota2.textContent = "5";
         link2.href = "partitura.html?partitura=monster"
 
         imgm3.src = "img/billieeilish.jpg";
-        nomem3.textContent = " No Time to Die - Billie Eilish -";
+        nomem3.textContent = "     No Time to Die  -  Billie Eilish  -  ";
         nota3.classList.add("dez");
         nota3.textContent = "10";
         link3.href = "partitura.html?partitura=notimetodie"
 
         imgm4.src = "img/substance.jpg";
-        nomem4.textContent = " SUBSTANCE - Demi Lovato -";
+        nomem4.textContent = "   SUBSTANCE   -  Demi Lovato   -   ";
         nota4.classList.add("sete");
         nota4.textContent = "7";
         link4.href = "partitura.html?partitura=substance"
@@ -107,19 +107,19 @@ function inst_atual(){
     else if(inst_param === "trompete")
     {  
         imgm1.src = "img/giornotheme.jpg";
-        nomem1.textContent = " Giorno Theme - Yugo Kanno -";
+        nomem1.textContent = "              Giorno Theme           - Yugo Kanno -";
         nota1.classList.add("seis");
         nota1.textContent = "6";
         link1.href = "partitura.html?partitura=giornotheme"
 
         imgm2.src = "img/lazytown.jpg";
-        nomem2.textContent = " We Are Number One - Lazy Town -";
+        nomem2.textContent = "            We Are Number One        -  Lazy Town -";
         nota2.classList.add("dois");
         nota2.textContent = "2";
         link2.href = "partitura.html?partitura=lazytown"
 
         imgm3.src = "img/mariokart.jpg";
-        nomem3.textContent = " Coconut Mall from Mario Kart Wii - Asuka Ohta -";
+        nomem3.textContent = "    Coconut Mall from Mario Kart Wii    - Asuka Ohta -";
         nota3.classList.add("seis");
         nota3.textContent = "6";
         link3.href = "partitura.html?partitura=mariokartwii"
@@ -135,25 +135,25 @@ function inst_atual(){
     else if(inst_param === "violino")
     {
         imgm1.src = "img/kiminonawa.jpg";
-        nomem1.textContent = "  Kimi No Na Wa -    你的名字    - ";
+        nomem1.textContent = "      Kimi No Na Wa   -   你的名字   - ";
         nota1.classList.add("cinco");
         nota1.textContent = "5";
         link1.href = "partitura.html?partitura=kiminonawa";
 
         imgm2.src = "img/amongus.jpg";
-        nomem2.textContent = "Among Us Drip  -    Leonz     - ";
+        nomem2.textContent = "   Among Us Drip   -      Leonz     -  ";
         nota2.classList.add("tres");
         nota2.textContent = "3";
         link2.href = "partitura.html?partitura=amongusdrip";
 
         imgm3.src = "img/takefive.jpg";
-        nomem3.textContent = "   Take Five  -       The Dave Brubeck Quartet      - ";
+        nomem3.textContent = "  Take Five  - The Dave Brubeck Quartet  - ";
         nota3.classList.add("seis");
         nota3.textContent = "6";
         link3.href = "partitura.html?partitura=takefive";
 
-        imgm4.src = "img/canonind.jpg";
-        nomem4.textContent = "   Canon in D    -  The White Strapes  - ";
+        imgm4.src = "img/canonid.jpg";
+        nomem4.textContent = " Canon in D  -     The White Strapes    - ";
         nota4.classList.add("sete");
         nota4.textContent = "7";
         link4.href = "partitura.html?partitura=canonind";
