@@ -166,7 +166,7 @@
 }
 
 #user_foto{
-    width: 10%;
+    width: 12%;
     height: 20%;
     border: 3px solid rgb(50, 119, 184);
     border-radius: 100%;
@@ -191,7 +191,7 @@
 }
 
 #salvar_foto{
-    margin-left: 2.4%;
+    margin-left: 3.3%;
     margin-top: .7%;
     color: blue;
 }
@@ -206,7 +206,7 @@
 #proxant{
     display: none;
     padding-top: 1%;
-    padding-left: 6.5%;
+    padding-left: 6%;
 }
 
 .mudar-perfil{

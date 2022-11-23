@@ -52,7 +52,7 @@ function att_foto(){
             user_foto.src = "img/zelda.jpg";
             break
         case 2:
-            user_foto.src = "img/foca.gif";
+            user_foto.src = "img/nevergonnagiveyouup.jpg";
             break
         case 3:
             user_foto.src = "img/amongus.jpg";
