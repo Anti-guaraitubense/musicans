@@ -39,7 +39,7 @@ function pop_atual(){
         link1.href = "partitura.html?partitura=flymetothemoon";
 
         imgm2.src = "img/amongus.jpg";
-        nomem2.textContent = "      Among Us Drip     -      Leonz     -  ";
+        nomem2.textContent = "      Among Us Drip     -      Leonz      - ";
         nota2.classList.add("tres");
         nota2.textContent = "3";
         link2.href = "partitura.html?partitura=amongusdrip";
@@ -51,7 +51,7 @@ function pop_atual(){
         link3.href = "partitura.html?partitura=finalcountdown";
 
         imgm4.src = "img/lazytown.jpg";
-        nomem4.textContent = "     We Are Number One   -    Lazy Town      -";
+        nomem4.textContent = "     We Are Number One   -    Lazy Town     - ";
         nota4.classList.add("dois");
         nota4.textContent = "2";
         link4.href = "partitura.html?partitura=lazytown"

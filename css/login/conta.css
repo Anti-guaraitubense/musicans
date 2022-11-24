@@ -176,6 +176,7 @@
 
 #sub_foto{
     display: block;
+    position: fixed;
     margin-top: 1%;
 }
 
@@ -212,6 +213,7 @@
 .mudar-perfil{
     padding-top: 1%;
     padding-left: 8%;
+    position: fixed;
 }
 
 #botaoperfil:hover{
@@ -219,4 +221,59 @@
 }
 #botaoperfil:active{
     color: aqua;
+}
+
+.infos{
+    color: rgb(93, 93, 240);
+}
+
+.user-name{
+    color: rgb(86, 139, 219);
+    position: fixed;
+    top: 23%;
+    left: 18%;
+    font-size: 130%;
+}
+
+.member-since{
+    position: fixed;
+    top: 30%;
+    left: 18%;
+    font-size: 90%;
+}
+
+.fav-songs{
+    transform: scale(2.5);
+    position: fixed;
+    left: 55%;
+    top: 45%;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    padding: 20px 30px 40px 30px;
+}
+
+.m1{
+    border: solid 2px blue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+.m2{
+    border: solid 2px blue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+.m3{
+    border: solid 2px blue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+.fix2{
+    margin-top: 25px;
+}
+
+.songs-text{
+    position: fixed;
+    top: 25%;
+    left: 56%;
 }

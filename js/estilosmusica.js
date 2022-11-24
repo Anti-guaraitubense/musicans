@@ -1,39 +1,50 @@
 const url_param = new URLSearchParams(window.location.search);
-const musica_param = url_param.get("gen");
+const gen_param = url_param.get("gen");
 
-function genero_atual(){
-    var texto = document.getElementById("texto");
+function gen_atual(){
+    
+    var nomem1 = document.querySelector("#nomemsc1");
+    var imgm1 = document.getElementById("imgmusica1");
+    var nota1 = document.querySelector("#nota1");
+    var link1 = document.querySelector("#linkmsc1");
 
-    if(musica_param === "mpb")
+    var nomem2 = document.querySelector("#nomemsc2");
+    var imgm2 = document.getElementById("imgmusica2");
+    var nota2 = document.querySelector("#nota2");
+    var link2 = document.querySelector("#linkmsc2");
+
+    var nomem3 = document.querySelector("#nomemsc3");
+    var imgm3 = document.getElementById("imgmusica3");
+    var nota3 = document.querySelector("#nota3");
+    var link3 = document.querySelector("#linkmsc3");
+
+    var nomem4 = document.querySelector("#nomemsc4");
+    var imgm4 = document.getElementById("imgmusica4");
+    var nota4 = document.querySelector("#nota4");
+    var link4 = document.querySelector("#linkmsc4");
+
+    if(gen_param === "mpb")
     {
-       texto.innerHTML = "Musica popular brasileira."; 
+        
     }
-    else if(musica_param === "class")
+    else if(gen_param === "class")
     {
-        texto.innerHTML = "Musica classica bethovemnmn";
+
     }
-    else if(musica_param === "pagode")
-    {
-        texto.innerHTML = "pagodin relaxante";
+    else if(gen_param === "game")
+    {   
+        
     }
-    else if(musica_param === "samba")
-    {
-        texto.innerHTML = "Turma do pagode";
+    else if(gen_param === "rock")
+    {  
+
     }
-    else if(musica_param === "rap")
+    else if(gen_param === "jazz")
     {
-        texto.innerHTML = "rapers";
+    
     }
-    else if(musica_param === "rock")
+    else if(gen_param === "hiho")
     {
-        texto.innerHTML = "rock metaleiro";
-    }
-    else if(musica_param === "jazz")
-    {
-        texto.innerHTML = "jazz relaxante ne mano";
-    }
-    else if(musica_param === "funk")
-    {
-        texto.innerHTML = "funk putaria";
+
     }
 }
