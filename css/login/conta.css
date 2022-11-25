@@ -181,46 +181,63 @@
 }
 
 #enviar_foto{
-    color: blue;
+    color: #2c7896;
+    border: solid 2px rgb(84, 165, 202);
+    padding: 2px 6px;
+    transition: all .1s ease-in-out;
 }   
 #enviar_foto:hover{
-    color: red;
+    border-color: rgb(50, 70, 184);
 }
 #enviar_foto:active
 {
-    color: purple;
+    color: aqua;
 }
 
 #salvar_foto{
-    margin-left: 3.3%;
+    margin-left: 4%;
     margin-top: .7%;
-    color: blue;
+    
+    color: #2c7896;
+    border: solid 2px rgb(84, 165, 202);
+    padding: 2px 5px;
+    transition: all .05s ease-in-out;
 }
 #salvar_foto:hover{
-    color: red;
+    border-color: rgb(50, 70, 184);
+    color: #2c5696;
 }
 #salvar_foto:active
 {
-    color: purple;
+    color: aqua;
+    border-color: aquamarine;
 }
 
 #proxant{
     display: none;
     padding-top: 1%;
-    padding-left: 6%;
+    padding-left: 5%;
 }
 
 .mudar-perfil{
     padding-top: 1%;
-    padding-left: 8%;
+    padding-left: 7.5%;
     position: fixed;
 }
 
+#botaoperfil{
+    color: #2c7896;
+    border: solid 2px rgb(39, 108, 187);
+    padding: 2px 10px;
+    transition: all .05s ease-in-out;
+}
 #botaoperfil:hover{
-    color: #4169e1;
+    border-color: rgb(50, 70, 184);
+    color: #2c5696;
 }
 #botaoperfil:active{
     color: aqua;
+    border-color: aquamarine;
 }
 
 .infos{
@@ -242,38 +259,75 @@
     font-size: 90%;
 }
 
-.fav-songs{
-    transform: scale(2.5);
-    position: fixed;
-    left: 55%;
-    top: 45%;
-    border: 2px solid royalblue;
-    border-radius: 5px;
-    padding: 20px 30px 40px 30px;
-}
 
 .m1{
-    border: solid 2px blue;
+    border: solid 2px rgb(51, 170, 185);
     padding: 5px 10px 5px 10px;
     border-radius: 15px;
+    margin-left: 14%;
 }
 .m2{
-    border: solid 2px blue;
+    border: solid 2px rgb(51, 170, 185);
     padding: 5px 10px 5px 10px;
     border-radius: 15px;
+    margin-left: 14%;
 }
 .m3{
-    border: solid 2px blue;
+    border: solid 2px rgb(51, 170, 185);
     padding: 5px 10px 5px 10px;
     border-radius: 15px;
+    margin-left: 14%;
 }
 
 .fix2{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .songs-text{
     position: fixed;
     top: 25%;
-    left: 56%;
+    left: 58%;
+}
+
+.img1{
+    width: 5%;
+    height: 8%;
+    vertical-align: -10%;
+    border-radius: 5px;
+}
+.img2{
+    width: 5%;
+    height: 8%;
+    vertical-align: -10%;
+    border-radius: 5px;
+}
+.img3{
+    width: 5%;
+    height: 8%;
+    vertical-align: -10%;
+    border-radius: 5px;
+}
+
+.fav-songs{
+    transform: scale(2);
+    position: fixed;
+    left: 55%;
+    top: 45%;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    width: 300px;
+    height: 170px;
+}
+
+.msc{
+    color: rgb(55, 134, 199);
+}
+
+.fix{
+    transition: all .2s;
+}
+
+.fix:hover{
+    color: rgb(72, 211, 211);
+    border-color: rgb(113, 255, 248);
 }

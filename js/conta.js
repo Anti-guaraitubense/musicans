@@ -50,19 +50,19 @@ function att_foto(){
             break;
         case 1:
             user_foto.src = "img/zelda.jpg";
-            break
+            break;
         case 2:
             user_foto.src = "img/nevergonnagiveyouup.jpg";
             break
         case 3:
             user_foto.src = "img/amongus.jpg";
-            break
+            break;
         case 4:
             user_foto.src = "img/minecraftsweden.jpeg";
-            break
+            break;
         case 5:
             user_foto.src = "img/hesapirate.jpg";
-            break
+            break;
         case 6:
             user_foto.src = "img/kiminonawa.jpg";
             break;
