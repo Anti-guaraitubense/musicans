@@ -331,3 +331,16 @@
     color: rgb(72, 211, 211);
     border-color: rgb(113, 255, 248);
 }
+
+.info-add{
+    transform: scale(.8);
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border: solid 3px rgb(55, 45, 185);
+    border-radius: 7px;
+    top: 55%;
+    margin-left: 40px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
