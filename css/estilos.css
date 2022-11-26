@@ -152,31 +152,6 @@
     color: rgb(55, 161, 161);
 }
 
-.teste1{
-    position: absolute;
-    top: 200px;
-    left: 480px;
-    word-spacing: 80px;
-    font-size: 300%;
-}
-
-.teste2{
-    position: absolute;
-    top: 400px;
-    left: 800px;
-    word-spacing: 80px;
-    font-size: 300%;
-}
-
-.link-instrumento{
-    color: rgb(38, 92, 143);
-}
-
-.link-instrumento:hover{
-    color: rgb(55, 161, 161);
-}
-
-
 .instruments{
     margin-top: 150px;
     display: flex;
@@ -191,7 +166,7 @@
     color:rgb(69, 107, 189);
     font-size: 250%;
     border: 3px solid;
-    margin-left: 200px;
+    margin-left: 165px;
     margin-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
@@ -209,7 +184,7 @@
     color:rgb(69, 107, 189);
     font-size: 250%;
     border: 3px solid;
-    margin-left: 198px;
+    margin-left: 220px;
     margin-top: 200px;
     padding-left: 30px;
     padding-right: 30px;
@@ -221,4 +196,12 @@
 .linha2:hover{
     color:rgb(113, 255, 248);
     transition: .2s;
+}
+
+.saxofone{
+    margin-left: 200px;
+}
+
+.violino{
+    margin-left: 210px;
 }

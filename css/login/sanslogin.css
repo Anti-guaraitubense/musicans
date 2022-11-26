@@ -122,48 +122,37 @@
 }
 
 .user{
-    position: relative;
-    display: flex;
-    left: -6%;
-    top: 3%;
-    float: right;
-    font-weight: 700;
-    text-decoration: none; 
+    transform: scale(2);
+    position: absolute;
+    left: 90%;
+    top: 5%;
 }
-
 .login{
     color: rgb(50, 119, 184);
-    transform: scale(2.5);
-    transition: transform .3s;
+    font-weight: 900;
+    transition: all .2s;
 }
-
 .login:hover{
     color: rgb(113, 255, 248);
-    transform: scale(3);
-    transition: transform .3s;
+    font-weight: 800;
 }
 
 .logout{
-    position: relative;
-    display: flex;
-    left: 2%;
-    top: 9%;
-    float: right;
-    font-weight: 700;
-    text-decoration: none; 
+    transform: scale(1.5);
+    position: absolute;
+    left: 95%;
+    top: 11%;
 }
-
 .sair{
     color: rgb(50, 119, 184);
-    transform: scale(2);
-    transition: transform .3s;
+    font-weight: 700;
+    transition: all .2s;
 }
-
 .sair:hover{
     color: rgb(113, 255, 248);
-    transform: scale(2.3);
-    transition: transform .3s;
+    font-weight: 800;
 }
+
 
 .ad{
     position: relative;

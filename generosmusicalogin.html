@@ -5,13 +5,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>MusicSans - Instrumentos</title>
-        <link rel="stylesheet" href="css/login/instrumentoslogin.css">
-        <script type="text/javascript" src="js/instrumentos.js" defer></script>
+        <title>MusicSans - Gêneros</title>
+        <link rel="stylesheet" href="css/login/estilosmusica.css">
         <link rel="icon" href="img/icon.ico">
+        <script src="js/estilosmusicalogin.js"></script>
     </head>
- <body>
-
+ <body onload="gen_atual();">
     <a class="logo" href="musicsanslogin.html">MusicSans</a>
 
     <div class="user">
@@ -20,7 +19,7 @@
         </a>
     </div>
     <div class="logout">
-        <a class="sair" href="#" onclick="logout()">
+        <a class="sair" href="musicsans.html">
             Sair
         </a>
     </div>
@@ -53,44 +52,39 @@
             <img class="foca" src="img/foca.gif">
         </a>
     </div>
+    
+    <!--  
+        Deixar tudo em branco pra eu (gustavo) conseguir mudar no js com parametro
 
+        só fazer os lugares q vai ficar tipo na pag principal tlg uwu
+    -->
 
-
-    <div class="instruments">
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=piano" class="piano linha1">
-                <i class="fa-solid fa-piano"></i>
-                Piano
+    <div class="musicas">
+        <div class="m1 musicafix">
+            <a href="" class="nomem1" id="linkmsc1">
+                <img src="img/" id="imgmusica1" class="imgm1 imgs">
+                <span id="nomemsc1"></span><span id="nota1"></span>
             </a>
         </div>
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=violao" class="violao linha1">
-                Violão
+        <div class="m2 musicafix">
+            <a href="" class="nomem2" id="linkmsc2">
+                <img src="img/" id="imgmusica2" class="imgm2 imgs">
+                <span id="nomemsc2"></span><span id="nota2"></span>
             </a>
         </div>
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=bateria" class="bateria linha1">
-                Bateria
+        <div class="m3 musicafix">
+            <a href="" class="nomem3" id="linkmsc3">
+                <img src="img/" id="imgmusica3" class="imgm3 imgs">
+                <span id="nomemsc3"></span><span id="nota3"></span>
+            </a>
+        </div>
+        <div class="m4 musicafix">
+            <a href="" class="nomem4" id="linkmsc4">
+                <img src="img/" id="imgmusica4" class="imgm4 imgs">
+                <span id="nomemsc4"></span><span id="nota4"></span>
             </a>
         </div>
     </div>
 
-    <div class="instruments2">
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=trompete" class="trompete linha2">
-                Trompete
-            </a>
-        </div>
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=violino" class="violino linha2">
-                Violino
-            </a>
-        </div>
-        <div>
-            <a href="insturmentosloginmusicas.html?inst=saxofone" class="saxofone linha2">
-                Saxofone
-            </a>
-        </div>
-    </div>
-</body> 
+</body>
 </html>

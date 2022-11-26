@@ -151,14 +151,6 @@
     transition: 10s;
 }
 
-.link-instrumento{
-    color: rgb(38, 92, 143);
-}
-
-.link-instrumento:hover{
-    color: rgb(55, 161, 161);
-}
-
 .musicas{
     display: flex;
     flex-direction: column;

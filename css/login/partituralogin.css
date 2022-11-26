@@ -1,11 +1,9 @@
 *{
-    background-color: rgb(36, 42, 61);
+    background-color: #242a3d;
     text-decoration: none;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    width: auto;
-    height: auto;
 }
 
 .material-icons{
@@ -20,11 +18,11 @@
     -webkit-font-smoothing: antialiased;
     /* Support for Safari and Chrome. */
     text-rendering: optimizeLegibility;
-}
+  }
 
 .logo{
     display: inline-block;
-    color: royalblue;
+    color: #4169e1;
     font-size: 250%;
     font-weight: 800;
     transition: .3s;
@@ -34,50 +32,6 @@
     color: rgb(150, 228, 241);
     font-size: 255%;
     transition: .3s;
-}
-
-.user{
-    position: relative;
-    display: flex;
-    left: -6%;
-    top: 3%;
-    float: right;
-    font-weight: 700;
-    text-decoration: none; 
-}
-
-.login{
-    color: rgb(50, 119, 184);
-    transform: scale(2.5);
-    transition: transform .3s;
-}
-
-.login:hover{
-    color: rgb(113, 255, 248);
-    transform: scale(3);
-    transition: transform .3s;
-}
-
-.logout{
-    position: relative;
-    display: flex;
-    left: 2%;
-    top: 9%;
-    float: right;
-    font-weight: 700;
-    text-decoration: none; 
-}
-
-.sair{
-    color: rgb(50, 119, 184);
-    transform: scale(2);
-    transition: transform .3s;
-}
-
-.sair:hover{
-    color: rgb(113, 255, 248);
-    transform: scale(2.3);
-    transition: transform .3s;
 }
 
 .top-hud{
@@ -93,7 +47,7 @@
     position: relative;
     top: 10px;
     display: inline-block;
-    color: rgb(50, 119, 184);
+    color: #3277b8;
     font-weight: 600;
     transition: .25s;
 }
@@ -151,11 +105,6 @@
     word-spacing: 3px;
 }
 
-.partitura{
-    text-align: center;
-    margin-top: 2%;
-}
-
 .foca{
     margin-top: -4%;
     border-radius: 17px;
@@ -171,6 +120,39 @@
     height: 90%;
     transition: 10s;
 }
+
+.user{
+    transform: scale(2);
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+.login{
+    color: rgb(50, 119, 184);
+    font-weight: 900;
+    transition: all .2s;
+}
+.login:hover{
+    color: rgb(113, 255, 248);
+    font-weight: 800;
+}
+
+.logout{
+    transform: scale(1.5);
+    position: absolute;
+    left: 95%;
+    top: 11%;
+}
+.sair{
+    color: rgb(50, 119, 184);
+    font-weight: 700;
+    transition: all .2s;
+}
+.sair:hover{
+    color: rgb(113, 255, 248);
+    font-weight: 800;
+}
+
 #partitura{
     position: relative;
     text-align: center;
@@ -241,4 +223,11 @@
     color: rgb(113, 255, 248);
     border-color: rgb(113, 255, 248);
     transition: transform .4s;
+}
+
+.video{
+    position: absolute;
+    z-index: 1;
+    left: 80.5%;
+    top: 40%;
 }

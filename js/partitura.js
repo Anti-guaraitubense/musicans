@@ -2,8 +2,12 @@ const url_param = new URLSearchParams(window.location.search);
 
 const partitura_param = url_param.get("partitura");
 
+var video = document.getElementById('video_yt');
+
 if(partitura_param === "zeldaocarinaoftime")
 {
+    video.src = "https://www.youtube.com/embed/S2v2WOIJJJQ";
+
     let img = document.createElement('img');
     img.src = 'img/partitura/tema-zelda-ocarinaoftime-pag1.png';
     document.getElementById('partitura').appendChild(img);
@@ -14,6 +18,8 @@ if(partitura_param === "zeldaocarinaoftime")
 }
 else if(partitura_param === "fallendown")
 {
+    video.src = "https://www.youtube.com/embed/iaoOp4lVLgs";
+ 
     let img = document.createElement('img');
     img.src = 'img/partitura/fallendown_pag1.jpg';
     document.getElementById('partitura').appendChild(img);
@@ -25,9 +31,12 @@ else if(partitura_param === "fallendown")
     let img3 = document.createElement('img');
     img3.src = 'img/partitura/fallendown_pag3.jpg';
     document.getElementById('partitura3').appendChild(img3)
+    
 }
 else if(partitura_param === "redswan")
 {
+    video.src = "https://www.youtube.com/embed/sWcgKts80vM";
+ 
     let img = document.createElement('img');
     img.src = 'img/partitura/red_swanpag1.jpg';
     document.getElementById('partitura').appendChild(img);
@@ -62,6 +71,8 @@ else if(partitura_param === "redswan")
 }
 else if(partitura_param === 'howlsmovingcastle')
 {
+    video.src = "https://www.youtube.com/embed/lB4PRX737-0";   
+ 
     let img = document.createElement('img');
     img.src = 'img/partitura/howls_pag1.jpg';
     document.getElementById('partitura').appendChild(img);

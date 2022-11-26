@@ -85,3 +85,22 @@ function rtrn_opt(){
     botao_perfil.style.display = "block";
     proxant.style.display = "none";
 }
+
+function submit_song(){
+
+    var sub_song = document.getElementById("file_song").value;
+    var name_song = document.getElementById("name_song").value;
+
+    var sub_verify = sub_song.includes(".pdf");
+    
+
+    if(sub_song === "" || name_song === "" || !sub_verify)
+    {
+        alert("Dados incorretos. Tente novamente!");
+    }
+    else
+    {
+        alert("Sua música foi enviada para revisão. Obrigado!");
+        document.location.reload(true);
+    }
+}

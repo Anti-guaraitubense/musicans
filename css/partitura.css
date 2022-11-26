@@ -215,3 +215,10 @@
     border-color: rgb(113, 255, 248);
     transition: transform .4s;
 }
+
+.video{
+    position: absolute;
+    z-index: 1;
+    left: 80.5%;
+    top: 40%;
+}

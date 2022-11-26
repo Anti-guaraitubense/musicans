@@ -91,8 +91,19 @@
         <div class="info-add">
             <h3>Músicas curtidas: 3</h3>
             <br>
-            <br>
             <h3>Músicas enviadas: 0</h3>
+        </div>
+
+        <div class="submit">
+            <div class="all-sub">
+                <h3>Enviar música:</h3>
+                <br>    
+                <input type="file" style="width: 115px" id="file_song" accept=".pdf"> <span> (PDF)</span>
+                <br>
+                <input type="text" style="margin-top: 5px" placeholder="Nome da música" id="name_song">
+                <input type="number" style="margin-top: 5px; width: 90px;" placeholder="Dificuldade" min="1" max="10" id="diff_song">
+                <input type="submit" style="margin-top: 5px; width: 90px;" value="Enviar" class="botao-enviar-musica" onclick="submit_song()">
+            </div>
         </div>
     </div>
 </body> 
