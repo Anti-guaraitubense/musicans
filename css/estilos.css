@@ -167,3 +167,58 @@
     word-spacing: 80px;
     font-size: 300%;
 }
+
+.link-instrumento{
+    color: rgb(38, 92, 143);
+}
+
+.link-instrumento:hover{
+    color: rgb(55, 161, 161);
+}
+
+
+.instruments{
+    margin-top: 150px;
+    display: flex;
+}
+.instruments2{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -65px;
+    display: flex;
+}
+.linha1{
+    color:rgb(69, 107, 189);
+    font-size: 250%;
+    border: 3px solid;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: .2s;
+    border-radius: 20px;
+}
+.linha1:hover{
+    color:rgb(113, 255, 248);
+    transition: .2s;
+}
+
+.linha2{
+    color:rgb(69, 107, 189);
+    font-size: 250%;
+    border: 3px solid;
+    margin-left: 198px;
+    margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: .2s;
+    border-radius: 20px;
+}
+.linha2:hover{
+    color:rgb(113, 255, 248);
+    transition: .2s;
+}
