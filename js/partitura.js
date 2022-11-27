@@ -101,6 +101,54 @@ else if(partitura_param === 'howlsmovingcastle')
     img7.src = 'img/partitura/howls_pag7.jpg';
     document.getElementById('partitura7').appendChild(img7);
 }
+else if(partitura_param === "flymetothemoon")
+{
+    video.src = "https://www.youtube.com/embed/TfgBHC5gvTI";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/flymetothemoon-pag1.png';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/flymetothemoon-pag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/flymetothemoon-pag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/flymetothemoon-pag4.png';
+    document.getElementById('partitura4').appendChild(img4);
+}
+else if(partitura_param === "amongusdrip")
+{
+    video.src = "https://www.youtube.com/embed/lX16L43bsK0";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/amongdrip-pag1.jpg';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/amongdrip-pag2.jpg';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/amongdrip-pag3.jpg';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/amongdrip-pag4.jpg';
+    document.getElementById('partitura4').appendChild(img4);
+
+    let img5 = document.createElement('img');
+    img5.src = 'img/partitura/amongdrip-pag5.jpg';
+    document.getElementById('partitura3').appendChild(img5);
+
+    let img6 = document.createElement('img');
+    img6.src = 'img/partitura/amongdrip-pag6.jpg';
+    document.getElementById('partitura4').appendChild(img6);
+}
 
 function linkpartitura(){
     if(partitura_param === "zeldaocarinaoftime")
@@ -118,6 +166,14 @@ function linkpartitura(){
     else if(partitura_param === "howlsmovingcastle")
     {
         window.location.href = "partitura.html?partitura=howlsmovingcastle"
+    }
+    else if(partitura_param === "flymetothemoon")
+    {
+        window.location.href = "partitura.html?partitura=flymetothemoon"
+    }
+    else if(partitura_param === "amongusdrip")
+    {
+        window.location.href = "partitura.html?partitura=amongusdrip"
     }
 }
 
@@ -140,5 +196,13 @@ function downloadpartitura(){
     else if(partitura_param === "redswan")
     {
         part.href = "pdf/redswan_pdf.pdf";
+    }
+    else if(partitura_param === "flymetothemoon")
+    {
+        part.href = "pdf/flymetothemoon.pdf";
+    }
+    else if(partitura_param === "amongusdrip")
+    {
+        part.href = "pdf/amongusdrip.pdf";
     }
 }
