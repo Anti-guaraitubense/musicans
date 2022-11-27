@@ -76,10 +76,10 @@ function pop_atual(){
         nota3.textContent = "3";
         link3.href = "partitura.html?partitura=mariokartwii"
 
-        imgm4.src = "img/substance.jpg";
-        nomem4.textContent = "      SUBSTANCE      -   Demi Lovato   -   ";
+        imgm4.src = "img/roxxane.jpg";
+        nomem4.textContent = "            Roxanne           - The Police - ";
         nota4.classList.add("sete");
         nota4.textContent = "7";
-        link4.href = "partitura.html?partitura=substance"
+        link4.href = "partitura.html?partitura=roxxane"
     }
 }
