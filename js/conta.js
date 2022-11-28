@@ -73,10 +73,10 @@ function att_foto(){
             user_foto.src = "img/mii.jpg";
             break;
         case 9:
-            user_foto.src = "img/noturno.jpg";
+            user_foto.src = "img/.jpg";
             break;
         case 10:
-            user_foto.src = "img/roxxane.jpg";
+            user_foto.src = "img/lazytown.jpg";
             break;
     }
 }
@@ -103,11 +103,10 @@ function submit_song(){
     if(sub_song === "" || name_song === "" || !sub_verify)
     {
         alert("Dados incorretos. Tente novamente!");
-        document.location.reload(true);
     }
     else
     {
         alert("Sua música foi enviada para revisão. Obrigado!");
-        document.location.reload(true);
+        window.location.reload(false);
     }
 }
