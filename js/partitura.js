@@ -344,6 +344,34 @@ else if(partitura_param === "amongusdrip")
     img6.src = 'img/partitura/amongdrip-pag6.jpg';
     document.getElementById('partitura4').appendChild(img6);
 }
+else if(partitura_param === "canonind")
+{
+    video.src = "https://www.youtube.com/embed/lX16L43bsK0";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/canonindpag1.png';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/canonindpag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/canonindpag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/canonindpag4.png';
+    document.getElementById('partitura4').appendChild(img4);
+
+    let img5 = document.createElement('img');
+    img5.src = 'img/partitura/canonindpag5.png';
+    document.getElementById('partitura5').appendChild(img5);
+
+    let img6 = document.createElement('img');
+    img6.src = 'img/partitura/canonindpag5.png';
+    document.getElementById('partitura6').appendChild(img6);
+}
 else if(partitura_param === "happybirthday")
 {
     video.src = "https://www.youtube.com/embed/4sZmPHJPvZE";   
@@ -474,11 +502,39 @@ else if(partitura_param === "supermarioworldthemeragtime")
 
     let img5 = document.createElement('img');
     img5.src = 'img/partitura/supermarioworldendthemepag5.png';
-    document.getElementById('partitura3').appendChild(img5);
+    document.getElementById('partitura5').appendChild(img5);
 
     let img6 = document.createElement('img');
     img6.src = 'img/partitura/supermarioworldendthemepag6.png';
-    document.getElementById('partitura4').appendChild(img6);
+    document.getElementById('partitura6').appendChild(img6);
+}
+else if(partitura_param === "theanimals")
+{
+    video.src = "https://www.youtube.com/embed/b9IkpUYlOx8";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/thehouseoftherisingsunpag1.png';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/thehouseoftherisingsunpag12.png';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/thehouseoftherisingsunpag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/thehouseoftherisingsunpag4.png';
+    document.getElementById('partitura4').appendChild(img4);
+
+    let img5 = document.createElement('img');
+    img5.src = 'img/partitura/thehouseoftherisingsunpag5.png';
+    document.getElementById('partitura5').appendChild(img5);
+
+    let img6 = document.createElement('img');
+    img6.src = 'img/partitura/thehouseoftherisingsunpag6.png';
+    document.getElementById('partitura6').appendChild(img6);
 }
 else if(partitura_param === "finalcountdown")
 {
@@ -498,6 +554,26 @@ else if(partitura_param === "finalcountdown")
 
     let img4 = document.createElement('img');
     img4.src = 'img/partitura/finalcountdown-pag4.jpg';
+    document.getElementById('partitura4').appendChild(img4);
+}
+else if(partitura_param === "cafe1930")
+{
+    video.src = "https://www.youtube.com/embed/y3Ga-d1JR0o";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/cafe1930pag1.png';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/cafe1930pag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/cafe1930pag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/cafe1930pag4.png';
     document.getElementById('partitura4').appendChild(img4);
 }
 else if(partitura_param === "lazytown")
@@ -580,7 +656,7 @@ else if(partitura_param === "intheend")
     img4.src = 'img/partitura/intheendpag4.png';
     document.getElementById('partitura4').appendChild(img4);
 }
-else if(partitura_param === "magelovaniaragtime")
+else if(partitura_param === "megalovaniaragtime")
 {
     video.src = "https://www.youtube.com/embed/q90OiB8KehM";   
  
@@ -598,6 +674,26 @@ else if(partitura_param === "magelovaniaragtime")
 
     let img4 = document.createElement('img');
     img4.src = 'img/partitura/megalovaniaragtimepag4.png';
+    document.getElementById('partitura4').appendChild(img4);
+}
+else if(partitura_param === "notimetodie")
+{
+    video.src = "https://www.youtube.com/embed/q90OiB8KehM";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/notimetodiepag1.png';
+    document.getElementById('partitura').appendChild(img);
+
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/notimetodiepag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/notimetodiepag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+
+    let img4 = document.createElement('img');
+    img4.src = 'img/partitura/notimetodiepag4.png';
     document.getElementById('partitura4').appendChild(img4);
 }
 else if(partitura_param === "ocaderno")
@@ -665,8 +761,118 @@ else if(partitura_param === "euseiquevouteamar")
     document.getElementById('partitura').appendChild(img);
 
     let img2 = document.createElement('img');
-    img2.src = 'img/partitura/partitura_euseiquepag1.png';
+    img2.src = 'img/partitura/partitura_euseiquepag2.png';
     document.getElementById('partitura2').appendChild(img2);
+}
+
+else if(partitura_param === "hesapirate")   // PENIS // 
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/hesapiratepag2.png';
+    document.getElementById('partitura').appendChild(img);
+}
+else if(partitura_param === "autumnleaves")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/autismoleavespag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/autismoleavespag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/autismoleavespag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+}
+else if(partitura_param === "shapeofmyheart")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/shapeofmyheartpag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/shapeofmyheartpag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/shapeofmyheartpag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+}
+else if(partitura_param === "beggin")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/begginpag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/begginpag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/begginpag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+}
+else if(partitura_param === "giornotheme")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/giornothemepag1.png';
+    document.getElementById('partitura').appendChild(img);
+}
+else if(partitura_param === "monster")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/monsterskilletpag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/monsterskilletpag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+   
+}
+else if(partitura_param === "substance")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/substancepag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/substancepag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+   
+}
+else if(partitura_param === "pianoconcerto")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/pianoconcertopag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/pianoconcertopag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+   
+}
+else if(partitura_param === "sevennationarmy")
+{
+    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+ 
+    let img = document.createElement('img');
+    img.src = 'img/partitura/sevennationarmypag1.png';
+    document.getElementById('partitura').appendChild(img);
+    let img2 = document.createElement('img');
+    img2.src = 'img/partitura/sevennationarmypag2.png';
+    document.getElementById('partitura2').appendChild(img2);
+    let img3 = document.createElement('img');
+    img3.src = 'img/partitura/sevennationarmypag3.png';
+    document.getElementById('partitura3').appendChild(img3);
+   
 }
 
 function linkpartitura(){
@@ -677,6 +883,10 @@ function linkpartitura(){
     else if(partitura_param === "fallendown")
     {
         window.location.href = "partitura.html?partitura=fallendown"
+    }
+    else if(partitura_param === "notimetodie")
+    {
+        window.location.href = "partitura.html?partitura=notimetodie"
     }
     else if(partitura_param === "redswan")
     {
@@ -702,6 +912,10 @@ function linkpartitura(){
     {
         window.location.href = "partitura.html?partitura=lazytown"
     }
+    else if(partitura_param === "canonind")
+    {
+        window.location.href = "partitura.html?partitura=canonind"
+    }
     else if(partitura_param === "kiminonawa")
     {
         window.location.href = "partitura.html?partitura=kiminonawa"
@@ -725,6 +939,10 @@ function linkpartitura(){
     else if(partitura_param === "ocaderno")
     {
         window.location.href = "partitura.html?partitura=ocaderno"
+    }
+    else if(partitura_param === "giornotheme")
+    {
+        window.location.href = "partitura.html?partitura=giornotheme"
     }
     else if(partitura_param === "dejaneiroajaneiro")
     {
@@ -786,9 +1004,17 @@ function linkpartitura(){
     {
         window.location.href = "partitura.html?partitura=happybirthday"
     }
+    else if(partitura_param === "monster")
+    {
+        window.location.href = "partitura.html?partitura=monster"
+    }
     else if(partitura_param === "jinglebell")
     {
         window.location.href = "partitura.html?partitura=jinglebell"
+    }
+    else if(partitura_param === "pianoconcerto")
+    {
+        window.location.href = "partitura.html?partitura=pianoconcerto"
     }
     else if(partitura_param === "takefive")
     {
@@ -810,6 +1036,38 @@ function linkpartitura(){
     {
         window.location.href = "partitura.html?partitura=supermarioworldthemeragtime"
     }
+    else if(partitura_param === "hesapirate")
+    {
+        window.location.href = "partitura.html?partitura=hesapirate"
+    }
+    else if(partitura_param === "autumnleaves")
+    {
+        window.location.href = "partitura.html?partitura=autumnleaves"
+    }
+    else if(partitura_param === "shapeofmyheart")
+    {
+        window.location.href = "partitura.html?partitura=shapeofmyheart"
+    }
+    else if(partitura_param === "theanimals")
+    {
+        window.location.href = "partitura.html?partitura=theanimals"
+    }
+    else if(partitura_param === "cafe1930")
+    {
+        window.location.href = "partitura.html?partitura=cafe1930"
+    }
+    else if(partitura_param === "beggin")
+    {
+        window.location.href = "partitura.html?partitura=beggin"
+    }
+    else if(partitura_param === "substance")
+    {
+        window.location.href = "partitura.html?partitura=substance"
+    }
+    else if(partitura_param === "sevennationarmy")
+    {
+        window.location.href = "partitura.html?partitura=sevennationarmy"
+    }
 }
 
 function downloadpartitura(){
@@ -823,6 +1081,14 @@ function downloadpartitura(){
     else if(partitura_param === "zeldaocarinaoftime")
     {
         part.href = "pdf/zelda_pdf.pdf";
+    }
+    else if(partitura_param === "notimetodie")
+    {
+        part.href = "pdf/notimetodie.pdf";
+    }
+    else if(partitura_param === "monster")
+    {
+        part.href = "pdf/monster.pdf";
     }
     else if(partitura_param === "howlsmovingcastle")
     {
@@ -864,7 +1130,7 @@ function downloadpartitura(){
     {
         part.href = "pdf/roxxane.pdf";
     }
-    else if(partitura_param === "azuldacordomar")  //COMEÇA AQUI AS PARTITURAS QUE NAO FIZ
+    else if(partitura_param === "azuldacordomar")  
     {
         part.href = "pdf/azuldacordomar.pdf";
     }
@@ -959,5 +1225,85 @@ function downloadpartitura(){
     else if(partitura_param === "supermarioworldthemeragtime")
     {
         part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "hesapirate")
+    {
+        part.href = "pdf/hesapirate.pdf";
+    }
+    else if(partitura_param === "shapeofmyheart")
+    {
+        part.href = "pdf/shapeofmyheart.pdf";
+    }
+    else if(partitura_param === "theanimals")
+    {
+        part.href = "pdf/theanimals.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "supermarioworldthemeragtime")
+    {
+        part.href = "pdf/supermarioworldthemeragtime.pdf";
+    }
+    else if(partitura_param === "autumnleaves")
+    {
+        part.href = "pdf/autumnleaves.pdf";
+    }
+    else if(partitura_param === "cafe1930")
+    {
+        part.href = "pdf/cafe1930.pdf";
+    }
+    else if(partitura_param === "theanimals")
+    {
+        part.href = "pdf/theanimals.pdf";
+    }
+    else if(partitura_param === "beggin")
+    {
+        part.href = "pdf/beggin.pdf";
+    }
+    else if(partitura_param === "substance")
+    {
+        part.href = "pdf/substance.pdf";
+    }
+    else if(partitura_param === "giornotheme")
+    {
+        part.href = "pdf/giornotheme.pdf";
+    }
+    else if(partitura_param === "pianoconcerto")
+    {
+        part.href = "pdf/pianoconcerto.pdf";
+    }
+    else if(partitura_param === "canonind")
+    {
+        part.href = "pdf/canonind.pdf";
+    }
+    else if(partitura_param === "sevennationarmy")
+    {
+        part.href = "pdf/sevennationarmy.pdf";
     }
 }
