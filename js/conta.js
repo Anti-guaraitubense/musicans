@@ -73,10 +73,10 @@ function att_foto(){
             user_foto.src = "img/mii.jpg";
             break;
         case 9:
-            user_foto.src = "img/.jpg";
+            user_foto.src = "img/noturno.jpg";
             break;
         case 10:
-            user_foto.src = "img/lazytown.jpg";
+            user_foto.src = "img/roxxane.jpg";
             break;
     }
 }
