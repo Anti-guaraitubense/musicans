@@ -117,7 +117,7 @@ function gen_atual(){
         nomem2.textContent = "           Believer        - Imagine Dragons - ";
         nota2.classList.add("seis");
         nota2.textContent = "6";
-        link2.href = "partitura.html?partitura=hesapirate";
+        link2.href = "partitura.html?partitura=believer";
 
         imgm3.src = "img/metalica.jpeg";
         nomem3.textContent = "      Nothing Else Matters  -    Metallica   - ";
