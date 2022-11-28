@@ -5,7 +5,7 @@ var proxant = document.getElementById('proxant');
 
 var foto = null;
 
-const max_foto = 8;
+const max_foto = 10;
 
 if(foto === null)
 {
@@ -70,7 +70,13 @@ function att_foto(){
             user_foto.src = "img/monster.jpg";
             break;
         case 8:
-            user_foto.src = "img/lazytown.jpg";
+            user_foto.src = "img/mii.jpg";
+            break;
+        case 9:
+            user_foto.src = "img/noturno.jpg";
+            break;
+        case 10:
+            user_foto.src = "img/roxxane.jpg";
             break;
     }
 }
@@ -97,6 +103,7 @@ function submit_song(){
     if(sub_song === "" || name_song === "" || !sub_verify)
     {
         alert("Dados incorretos. Tente novamente!");
+        document.location.reload(true);
     }
     else
     {

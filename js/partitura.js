@@ -346,7 +346,7 @@ else if(partitura_param === "amongusdrip")
 }
 else if(partitura_param === "canonind")
 {
-    video.src = "https://www.youtube.com/embed/lX16L43bsK0";   
+    video.src = "https://www.youtube.com/embed/6jSLH9CDPPQ";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/canonindpag1.png';
@@ -510,7 +510,7 @@ else if(partitura_param === "supermarioworldthemeragtime")
 }
 else if(partitura_param === "theanimals")
 {
-    video.src = "https://www.youtube.com/embed/b9IkpUYlOx8";   
+    video.src = "https://www.youtube.com/embed/utt6SKdzbYQ";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/thehouseoftherisingsunpag1.png';
@@ -558,7 +558,7 @@ else if(partitura_param === "finalcountdown")
 }
 else if(partitura_param === "cafe1930")
 {
-    video.src = "https://www.youtube.com/embed/y3Ga-d1JR0o";   
+    video.src = "https://www.youtube.com/embed/Q1Q1e2ruS_k";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/cafe1930pag1.png';
@@ -678,7 +678,7 @@ else if(partitura_param === "megalovaniaragtime")
 }
 else if(partitura_param === "notimetodie")
 {
-    video.src = "https://www.youtube.com/embed/q90OiB8KehM";   
+    video.src = "https://www.youtube.com/embed/p2s_7E7aO6I";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/notimetodiepag1.png';
@@ -767,7 +767,7 @@ else if(partitura_param === "euseiquevouteamar")
 
 else if(partitura_param === "hesapirate")   // PENIS // 
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/2aBtDz87UK0";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/hesapiratepag2.png';
@@ -775,7 +775,7 @@ else if(partitura_param === "hesapirate")   // PENIS //
 }
 else if(partitura_param === "autumnleaves")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/c1YqFu1LK7g";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/autismoleavespag1.png';
@@ -789,7 +789,7 @@ else if(partitura_param === "autumnleaves")
 }
 else if(partitura_param === "shapeofmyheart")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/aEm0G9UUFXQ";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/shapeofmyheartpag1.png';
@@ -803,7 +803,7 @@ else if(partitura_param === "shapeofmyheart")
 }
 else if(partitura_param === "beggin")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/xWODazNOCic";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/begginpag1.png';
@@ -817,7 +817,7 @@ else if(partitura_param === "beggin")
 }
 else if(partitura_param === "giornotheme")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/T3xXwmkRx3s";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/giornothemepag1.png';
@@ -825,7 +825,7 @@ else if(partitura_param === "giornotheme")
 }
 else if(partitura_param === "monster")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/_ChTEezGzAI";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/monsterskilletpag1.png';
@@ -837,7 +837,7 @@ else if(partitura_param === "monster")
 }
 else if(partitura_param === "substance")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/lJ8goBcbBrA";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/substancepag1.png';
@@ -849,7 +849,7 @@ else if(partitura_param === "substance")
 }
 else if(partitura_param === "pianoconcerto")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/82l3q15YfYQ";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/pianoconcertopag1.png';
@@ -861,7 +861,7 @@ else if(partitura_param === "pianoconcerto")
 }
 else if(partitura_param === "sevennationarmy")
 {
-    video.src = "https://www.youtube.com/embed/qhZNL7OOVUg";   
+    video.src = "https://www.youtube.com/embed/O-yIsARkKUc";   
  
     let img = document.createElement('img');
     img.src = 'img/partitura/sevennationarmypag1.png';
